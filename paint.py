@@ -24,6 +24,7 @@ def greenc():
     color="green"
     giet.bind('<B1-Motion>',paint_page)
 
+btn=Button(dsc,text="Press Me",bg="red",fg="black",bd="4px solid black",command=dsc.destroy).place(x=620,y=15)
 btn=Button(dsc,text="red colour",bg="red",fg="white",command=redc)
 btn.place(x=20,y=30)
 btn=Button(dsc,text="yellow colour",bg="yellow",fg="white",command=yellowc)
